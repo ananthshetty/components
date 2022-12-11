@@ -12,3 +12,9 @@ npm i sass --save
 
 <!-- keen-slider types -->
 https://keen-slider.io/examples
+
+
+
+This component repo consist of below components :-
+Vertical Keen-slider
+react js simple image slider
