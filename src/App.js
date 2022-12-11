@@ -1,13 +1,13 @@
-import styles from './App.scss';
+import styles from './App.module.scss';
+import KeenSliderComp from './components/KeenSliderComp/KeenSliderComp';
+import SimpleImageSlider from './components/SimpleImageSlider/SimpleImageSlider';
 
 
 function App() {
   return (
-    <div className={`${styles.appContainer} ${styles.App}`}>
-      <div className='w-[300px] bg-black flex flex-col justify-center items-center gap-[50px]'>
-        <p className='p-2 font-bold text-black bg-white'>Hello World</p>
-        <p className='p-2 font-bold text-black bg-white'>Hello World - 2</p>
-      </div>
+    <div className={` w-full h-[100vh] flex justify-center items-center ${styles.appContainer}`}>
+      <KeenSliderComp
+      />
     </div>
   );
 }
