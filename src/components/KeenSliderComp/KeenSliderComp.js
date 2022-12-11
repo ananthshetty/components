@@ -4,24 +4,6 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import './KeenSliderComp.css';
 
-// sample:
-// const arrayObject = [
-//     {
-//       labelHeading: 'DSP Mid Cap Fund - Direct Plan (G)',
-//       threeYearReturn: '18.23%',
-//       fiveYearReturn: '10.6%'
-//     },
-//     {
-//       labelHeading: 'Edelweiss Mid Cap Fund - Direct Plan (G)',
-//       threeYearReturn: '28.35%',
-//       fiveYearReturn: '15.85%'
-//     },
-//     {
-//       labelHeading: 'Mirae Asset Savings - Direct Plan (G)',
-//       threeYearReturn: '5.02%',
-//       fiveYearReturn: '5.78%'
-//     }
-//   ]
 
 export default function KeenSliderComp() {
     const [arrayObject, setArrayObject] = useState(
