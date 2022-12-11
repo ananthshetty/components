@@ -9,3 +9,6 @@ npm run start
 
 <!-- command to install sass into react js app-->
 npm i sass --save
+
+<!-- keen-slider types -->
+https://keen-slider.io/examples
