@@ -1,9 +1,13 @@
 # echartReactJs
+
 Echart by using npm package
 
 <!-- command to install tailwind css -->
+
 npm install -D tailwindcss postcss autoprefixer
+
 npx tailwindcss init -p
+
 npm run start
 
 
@@ -16,5 +20,7 @@ https://keen-slider.io/examples
 
 
 This component repo consist of below components >> 
+
 Vertical Keen-slider, 
+
 react js simple image slider
