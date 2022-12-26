@@ -1,5 +1,0 @@
-{"walletData" : [
-    {"createdAt":"2022-12-08 10:40:36","walletId":"56abc902-1c4c-486a-85db-53e37e27b779","walletName":"Default","availableBalance":null,"availabilityToUse":100,"exchangeRate":1,"exchangeVariation":null,"exchangeAmount":100,"status":null,"walletCategory":"CYN","type":null,"subType":null,"walletDescription":null,"amount":null,"balance":null,"updatedAt":null,"walletType":"TOKEN"},
-    {"createdAt":"2022-09-21 12:07:13","walletId":"cb68eb4f-b959-4f7c-9b85-12983e024bb8","walletName":"Crypto","availableBalance":null,"availabilityToUse":200,"exchangeRate":1,"exchangeVariation":null,"exchangeAmount":200,"status":null,"walletCategory":"CYN","type":null,"subType":null,"walletDescription":null,"amount":null,"balance":null,"updatedAt":null,"walletType":"TOKEN"}
-]
-}
