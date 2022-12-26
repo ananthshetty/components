@@ -1,6 +1,13 @@
 # echartReactJs
 
 Echart by using npm package
+<!-- ApexChart>>Donut -->
+
+<!-- https://apexcharts.com/docs/installation/ -->
+<!-- npm install apexcharts --save -->
+
+<!-- apexChart - toolTip -->
+<!-- https://apexcharts.com/docs/options/tooltip/ -->
 
 <!-- command to install tailwind css -->
 
