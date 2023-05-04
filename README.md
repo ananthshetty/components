@@ -1,3 +1,7 @@
+#React-Table
+install with npm:-
+    npm install react-table --save
+
 # echartReactJs
 
 Echart by using npm package
