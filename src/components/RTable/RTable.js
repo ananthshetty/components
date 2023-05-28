@@ -1,6 +1,7 @@
 import React from 'react'
 import { useMemo } from 'react';
 import {useTable} from 'react-table';
+import styles from "./RTable.module.scss";
 
 export default function RTable() {
     const columns = useMemo(
@@ -13,6 +14,10 @@ export default function RTable() {
             Header: 'Column 2',
             accessor: 'col2',
           },
+          {
+            Header: 'Column 3',
+            accessor: 'col3',
+          },
         ],
         []
       );
@@ -22,15 +27,23 @@ export default function RTable() {
           {
             col1: 'Hello',
             col2: 'World',
+            col3:"war3"
           },
           {
             col1: 'react-table',
             col2: 'rocks',
+            col3:"war3"
           },
           {
             col1: 'whatever',
             col2: 'you want',
+            col3:"war3"
           },
+          {
+            col1: 'hey',
+            col2: 'hi hellow',
+            col3:"war3"
+          }
         ],
         []
       );
@@ -44,19 +57,13 @@ export default function RTable() {
       } = useTable({ columns, data })
 
   return (
-<table {...getTableProps()} style={{ border: 'solid 1px blue' }}>
+<table {...getTableProps()}>
        <thead>
          {headerGroups.map(headerGroup => (
-           <tr {...headerGroup.getHeaderGroupProps()}>
+           <tr  className='first:rounded-tl-lg' {...headerGroup.getHeaderGroupProps()}>
              {headerGroup.headers.map(column => (
                <th
                  {...column.getHeaderProps()}
-                 style={{
-                   borderBottom: 'solid 3px red',
-                   background: 'aliceblue',
-                   color: 'black',
-                   fontWeight: 'bold',
-                 }}
                >
                  {column.render('Header')}
                </th>
@@ -68,7 +75,7 @@ export default function RTable() {
          {rows.map(row => {
            prepareRow(row)
            return (
-             <tr {...row.getRowProps()}>
+             <tr  {...row.getRowProps()}>
                {row.cells.map(cell => {
                  return (
                    <td
