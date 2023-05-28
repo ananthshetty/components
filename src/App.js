@@ -1,8 +1,6 @@
 import styles from './App.module.scss';
-import KeenSliderComp from './components/KeenSliderComp/KeenSliderComp';
 import RTable from './components/RTable/RTable';
 import ReduxToolkitCounterApp from './components/ReduxToolkitCounterApp/ReduxToolkitCounterApp';
-import SimpleImageSlider from './components/SimpleImageSlider/SimpleImageSlider';
 import Memo from './components/reactMemo/Memo';
 
 
